@@ -1,35 +1,3 @@
-/* Erin Mooney */
-
-
-/* Pop Up */
-window.addEventListener('DOMContentLoaded',init,false);
-            
-function init() {
-    alert('Welcome! A character I like just died. So, here is a fun button to help distract from my woes.');
-    var buttons = document.getElementsByTagName("button")
-    buttons[0].addEventListener('click', changeComment, false)
-}
-
-function myFunction() {
-    var x = document.getElementById("commentToggle"); 
-   /* {
-        p.style.backgroundColor="green";
-    }*/
-    
-  if (x.innerHTML === "Thanks for visiting") 
-  {
-    x.innerHTML = "Please stop clicking, I'm getting dizzy.";
-  } else {
-    x.innerHTML = "Thanks for visiting";
-  }
-}
-    
-
-
-/* Confetti */
-/*function changeColor() {
- var button = document.getElementById("confetti") 
-{
 var maxParticleCount = 150; //set max confetti count
 var particleSpeed = 2; //set the particle animation speed
 var startConfetti; //call to start confetti animation
@@ -159,4 +127,4 @@ var removeConfetti; //call to stop the confetti animation and remove all confett
 			}
 		}
 	}
-})();}}*/
+})();
