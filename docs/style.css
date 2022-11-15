@@ -1,0 +1,60 @@
+/* For JavaScript */
+
+body {;color: #CCCCCC;
+font-family: arial, helvetica, sans-serif;
+font-size: 14pt;
+background-color: #660099;}
+
+
+
+/* unvisited link */
+a:link {
+  color: #CCCCCC;
+}
+
+/* visited link */
+a:visited {
+  color: #FFCC99;
+}
+
+/* mouse over link */
+a:hover {
+  color: #CCCCFF;
+}
+
+/* selected link */
+a:active {
+  color: #FFCCCC;
+}
+
+h1 {text-align: center;}
+
+
+/* Spans */
+span.nicely.on {
+color:#FF99CC
+}
+span.sadFace.on {
+text-decoration-line: underline;
+text-decoration-color: #CCFFFF;
+}
+span.joy.on {
+background-color:#FFFF99
+}
+span.goodQ.on {
+color: #CCFF99;
+text-decoration-line: overline underline;
+text-decoration-color: #CCFF33;
+}
+span.fineThen.on {
+color: #FFFFCC;
+background-color: #CC3300;
+}
+
+
+
+
+
+
+
+

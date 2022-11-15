@@ -2,15 +2,39 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <script type="text/javascript" src="interact.js">/*Pop Up*/</script>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
          
         <title>❤ I'm in denial ❤</title>
         
     </head>
     <body>
         <h1>❤ I'm in denial ❤</h1>
-        <button onclick="myFunction()">Click Me!...or not, I can't make you</button>
+        <button onclick="changeComment()">Please click Me!...or not, I can't make you</button>
+        <br/>
         <br/>
         <div id="commentToggle">Thanks for visiting</div>
+        
+        
+        <p> Please mark why you clicked the button: </p>
+       <fieldset>
+           <p> <input type="checkbox" id="niceToggle"/> They asked <span class="nice">nicely</span> </p>
+           <p> <input type="checkbox" id="sadToggle"/> <span class="sadFace">I really need this right now</span>  </p>
+           <p> <input type="checkbox" id="needToggle"/> To get some <span class="joy">joy</span> out of life  </p>
+           <p> <input type="checkbox" id="questionsToggle"/> <span class="goodQ">Why not?</span>  </p>
+           <p> <input type="checkbox" id="ouchToggle"/> <span class="fineThen">I did not and you can't make me >:|</span> </p>
+        </fieldset>
+        
+   <br/>
+<!--   <span class="button">
+       <button>Press thank to thank</button>
+   </span>-->
+   
+<!--   
+        <iframe src="frame.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+        
+        <p><a href="frame.html" target="iframe_a">Check it out</a></p>
+        -->
+
         
         
     </body>
